@@ -1,3 +1,11 @@
+Version 2.0.12
+2017-07-29
+Correct syntax error message for #\c unescaping (James Anderson)
+Fix Perl compatibility for (SPLIT ... :LIMIT -1). (Philipp Marek)
+Report a syntax error on "(?<". (Stas Boukarev)
+Remove (safety 0) from the default optimization. (Attila Lendvai)
+Fix compiler-macro interaction with LOAD-TIME-VALUE and CONSTANTP. (Stas Boukarev)
+
 Version 2.0.11
 2015-08-26
 Fix for type checks in LispWorks 7 (Martin Simmons)
